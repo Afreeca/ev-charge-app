@@ -1,0 +1,22 @@
+.header-container {
+  background-color: white;
+  padding: 15px 10px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.select-container {
+  width: 100%;
+}
+button {
+  background-color: #3d49d6;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  line-height: 30px;
+  padding: 0 16px;
+  color: #fff;
+  font-weight: 700;
+  height: 100%;
+}

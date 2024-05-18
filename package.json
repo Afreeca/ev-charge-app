@@ -1,0 +1,49 @@
+{
+  "name": "charge-ahead-react",
+  "version": "1.0.0",
+  "description": "Charge Ahead",
+  "main": "App.jsx",
+  "private": true,
+  "author": "Byteboard",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "PORT=8080 react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "zip": "node zip.js",
+    "test:watch": "react-scripts test --watchAll=false",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-react": "^7.24.1",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "@types/jest": "^29.5.12",
+    "archiver": "^5.0.2",
+    "react-error-overlay": "^6.0.9",
+    "ts-jest": "^29.1.2"
+  }
+}
